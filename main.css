@@ -1,0 +1,45 @@
+.board {
+  width: 13em;
+}
+.column {
+  float: left;
+}
+.cell {
+  border: .1em solid black;
+  height: 1.5em;
+  margin: .1em;
+  width: 1.5em;
+}
+.column-hover {
+  background-color: yellow;
+}
+.column-inactive {
+  background-color: lightgray;
+}
+.p1 {
+  background-color: pink;
+  color: red;
+}
+.p2 {
+  background-color: lightblue;
+  color: blue;
+}
+.controls {
+  float: left;
+  width: 13em;
+}
+.controls .section {
+  height: 1.8em;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+.controls input {
+  height: 1.5em;
+  width: 10em;
+}
+.messages {
+  background-color: lightgreen;
+  height: 1.5em;
+  margin: 0 auto;
+  width: 11em;
+}
